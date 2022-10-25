@@ -1,0 +1,70 @@
+<style>
+      *{
+         font-family: "맑은 고딕", Arial, Helvetica, sans-serif;
+         line-height: 150%;
+      }
+      body{
+         margin-top: 20px;
+         margin: 0 auto;
+         max-width: 980px;
+      }
+      header, footer{
+         height: 100px;
+      }
+      header h1{
+         display: inline;
+      }
+      footer{
+         background-color: gray; 
+      }
+      nav{
+         height: 50px;
+      }
+      section{
+         display: flex;
+      }
+      .content{
+         flex: 4;
+      }
+      aside{
+         flex: 1;
+      }
+      ul{list-style-type: none;}
+      a{text-decoration: none;}
+      nav ul li {
+         display: inline;
+         padding: 15px 30px;
+         letter-spacing: 5px;
+      }
+      nav ul li:hover{
+         background-color: yellow;
+      }
+      nav ul{ 
+      border-top: 2px solid orange;
+      border-bottom: 2px solid orange;
+      padding: 15px 20px;
+         text-align: center;
+      }
+      .bigdata > img{
+         display: block;
+         padding-top: 50px;
+         width: 50%;
+         margin: 0 auto;
+      }
+      .action table{
+         margin: 0 auto;
+         width: 90%;
+         font-size: 1.22em;
+         border: 0px;
+      }
+      .action table th{
+         background-color: blueviolet;
+      }
+      video, iframe{
+         margin: 0, auto;
+         width: 70%;
+      }
+      .link{
+        padding-top: 50px;
+      }
+</style>
