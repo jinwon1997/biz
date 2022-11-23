@@ -1,13 +1,6 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KN88RRX');</script>
-<!-- End Google Tag Manager -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZ206WT75S"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -43,7 +36,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             border: 1px dotted red;
     
     </style>
-  <script>
+    <script>
       function cartAdd(){
         dataLayer.push({
           'event' : 'cartAdd',
@@ -54,14 +47,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </script>
 </head>
 <body>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KN88RRX"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
   <!--  header+nav+section>article*3+aside^footer -->
   <header id="home"> 
     <i class="fa-sharp fa-solid fa-bars"></i>
-    <a href="../index.html"> <h1> SeongWon Site</h1></a>
+    <a href="../index.html"> <h1> Jinwon Site</h1></a>
   </header>
   <nav>
      <!--ul>li*4>a{메인메뉴$$}--> 
@@ -81,7 +70,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             CPU: 인텔 코어i5 3470 (아이비브릿지 3세대) 사용<br />
             가격: 1,200,000원
         </p>
-        <input type="button" value="쇼핑카트에 추가하기" id="CartProduct1" onclick="cartAdd();"/>
+        <input type="button" value="쇼핑카트에 추가하기" onclick="cartAdd();" class="cart"/>
     </div>
     <div class="product2">
         <img src="images/notebook.png" width="100" height="100" />
@@ -103,20 +92,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </p>
         <input type="button" value="쇼핑카트에 추가하기" onclick="cartAdd();"/>
     </div>
-    <!--버튼 추가----->
-    <div class="buttonLink">
-      <button type="button" id="payment"> 구매하기 </button>
-    </div>
 </section>
 <footer> 
     <p class="w3-left-align">Copyright 2022. SeongWon All rights reserved</p>
     <h5>Contact </h5>
     <div class="sns">
-      <a href="http://web.donga.ac.kr/sense64"></a>
-      <i class="fa-brands fa-facebook/">
-        <a href="http:facebook.com></a></i>
-      <i class="fa-brands fa-twitter">
-                                     <a href="http:twitter.com></a></i>
+      <a href="http://web.donga.ac.kr/sense64">
+      <i class="fa-brands fa-facebook"></i></a>
+      <i class="fa-brands fa-twitter"></i>
     </div>
   </footer>
 </body>
